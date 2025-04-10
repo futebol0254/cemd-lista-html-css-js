@@ -2,7 +2,7 @@ body{
     background-color: black;
     margin: 0;
     padding: 20px;
-    color: blue;
+    color: white;
 }
 
 h1{
@@ -20,4 +20,20 @@ h4{
     flex-wrap: wrap;
     gap: 20px
     justify-content: space-between;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.galeria-item{
+    background-color: azure;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px;
+
+    text-align: center;
 }
