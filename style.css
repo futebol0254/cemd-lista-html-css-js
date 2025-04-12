@@ -6,21 +6,17 @@ body{
 }
 
 h1{
-    color: green;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 3em;
+    background: linear-gradient(to left,#FEF8EC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }    
 
 h4{
     color: brown;
 }   
-
-.classses{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-between;
-}
 
 .galeria{
     display: flex;
@@ -33,25 +29,32 @@ h4{
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    padding: 10px;
+    padding: 20px;
     flex: 1 1 calc(33.33% - 20px);
     text-align: center;
-
+    transition: transform 0.8s ease;
+}
 .galeria-item h4{
-    margin: 10px 0px;
+    margin: 20px 0px;
     color: blue;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .galeria-item img{
-    height:20px;
-    width: 20px;
-    border-radius: 8px;
-    margin: 5px;
-    transition: transform 0.6s ease;
+    height:200px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 20px;
+    transition: transform 0.8s ease;
+    box-shadow: 0 4px 7.5px rgba(0,0,0,0.7);
  }
 
  .galeria-item img:hover{
-    transform: scale(1.45);
+    transform: scale(1.8);
+    box-shadow: 0 4px 7.5px rgba(0,0,0,0.7)
  }
- 
+
+ .galeria-item:hover{
+    transform: scale(1.0);
+    box-shadow: 0 4px 7.5px rgba(0,0,0,0.7)
+ }
