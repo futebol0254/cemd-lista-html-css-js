@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Culinária da Ficção</title>
+    <style>
+
+        body{
+            margin: auto 50vh;
+        }
+        .categoria {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            flex-direction: row;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+        .prato{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            flex-direction: column;
+            max-width: 200px;
+            max-height: 200px;
+        }
+        .prato img{
+            width: 200px;
+            height: 200px;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        thead{
+            background-color: #e1e1e1;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Comidas Deliciosas</h1>
+
+    <p>Culinária de ficção refere-se à comida e bebida imaginárias, muitas vezes presentes em livros, filmes e séries, que não são necessariamente inspiradas em receitas reais, mas sim em criações de mundo ou elementos mágicos.</p>
+
+    <h2>Categorias de Receitas</h2>
+    <ul>
+        <li>Comida Egípcia
+            <div class="categoria">
+                <div class="prato"></div>
+                <img src="./Ful_medames_(arabic_meal).jpg  " alt="Comida">
+                <p>Prato de Comida</p>
+            </div>
+            <div class="prato">
+                <img src="./Falafel-comida-egipcia-1.jpg" alt="Comida Egipcia">
+                <p>Prato de Falafel</p>
+            </div>
+
+        </li>
+        <li>Comida Francesa</li>
+        <li>Comida Grega</li>
+        <li>Comida Italiana</li>
+        <li>Comida Brasileira</li>
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Receita</th>
+                <th>Dificuldade</th>
+                <th>Tempo de Preparo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pudim</td>
+                <td>Média</td>
+                <td>1 hora e 30 minutos</td>
+            </tr>
+            <tr>
+                <td>Bolo</td>
+                <td>Fácil</td>
+                <td>35 m</td>
+            </tr>
+        <tr>
+            <td>Arroz</td>
+            <td>Fácil</td>
+            <td>8 m</td>
+        </tr>
+
+        <footer>
+            Referências Culinárias
+            <ul>
+                <li><a href="https://cdn.deliway.com.br/blog/base/853/53d/3b2/feijoada.jpg"> 🍽Restaurante</a></li>
+            </ul>
+        </footer>
+        </tbody>
+    </table>
